@@ -59,6 +59,30 @@
       width: 800px;
       height: auto;
     }
+
+    .video-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .video-container {
+      background: #3a0088;
+      border-radius: 10px;
+      padding: 1rem;
+      max-width: 800px;
+      width: 100%;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
@@ -106,6 +130,22 @@
         <img src="3.png" alt="Folleto Inmersia 4D 3">
       </div>
     </div>
+
+    <div class="video-section">
+    <div class="video-container">
+      <video controls>
+        <source src="4.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+    </div>
+    <div class="video-container">
+      <video controls>
+        <source src="5.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+    </div>
+</div>
+
   </div>
 
   <footer>
